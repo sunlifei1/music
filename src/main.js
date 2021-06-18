@@ -7,8 +7,8 @@ Vue.use(store)
 // axios
 import axios from 'axios'
 Vue.prototype.axios = axios;
-// axios.defaults.baseURL = "xxxxx";  //这里使用自己下载的网易云接口地址
-axios.defaults.baseURL = process.env.NODE_ENV == "production" ? "/" : "http://localhost:5000/";
+axios.defaults.baseURL = "https://netease-cloud-music-api-self-six.vercel.app/";  //这里使用自己下载的网易云接口地址
+//axios.defaults.baseURL = process.env.NODE_ENV == "production" ? "/" : "http://localhost:5000/";
 
 // 引入Vant
 import Vant from 'vant'
