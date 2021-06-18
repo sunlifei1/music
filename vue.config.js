@@ -1,6 +1,6 @@
 module.exports = {
 	publicPath: '/',                  //根路径
-	outputDir: __dirname + '/./wyyunapi/public/music',
+	outputDir: 'dist',
 	devServer: {
 		open: true,              //自动开启首页
 		host: 'localhost',
